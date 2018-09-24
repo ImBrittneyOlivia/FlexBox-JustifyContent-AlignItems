@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+}
+
+/*FLEX START*/
+#justifyContent-start {
+  display: flex;
+  justify-content: flex-start; /* other options: flex-start or center*/
+}
+#one {
+  background-color: rgb(245, 245, 105);
+  height: 20vh;
+  width: 20vh;
+}
+#two {
+  background-color: rgb(247, 168, 77);
+  height: 20vh;
+  width: 20vh;
+}
+#three {
+  background-color: rgb(252, 114, 110);
+  height: 20vh;
+  width: 20vh;
+}
+
+/*FLEX CENTER*/
+
+#justifyContent-center {
+  display: flex;
+  justify-content: center; /* other options: flex-start or center*/
+}
+#four {
+  background-color: rgb(245, 245, 105);
+  height: 20vh;
+  width: 20vh;
+}
+#five {
+  background-color: rgb(247, 168, 77);
+  height: 20vh;
+  width: 20vh;
+}
+#six {
+  background-color: rgb(252, 114, 110);
+  height: 20vh;
+  width: 20vh;
+}
+/*FLEX END*/
+#justifyContent-end {
+  display: flex;
+  justify-content: flex-end; /* other options: flex-start or center*/
+}
+#seven {
+  background-color: rgb(245, 245, 105);
+  height: 20vh;
+  width: 20vh;
+}
+#eight {
+  background-color: rgb(247, 168, 77);
+  height: 20vh;
+  width: 20vh;
+}
+#nine {
+  background-color: rgb(252, 114, 110);
+  height: 20vh;
+  width: 20vh;
+}
+
+/*FLEX Space Between*/
+#justifyContent-between {
+  display: flex;
+  justify-content: space-between; /* other options: flex-start or center*/
+}
+#ten {
+  background-color: rgb(109, 255, 243);
+  height: 20vh;
+  width: 20vh;
+}
+#eleven {
+  background-color: rgb(15, 102, 95);
+  height: 20vh;
+  width: 20vh;
+}
+#twelve {
+  background-color: rgb(8, 26, 24);
+  height: 20vh;
+  width: 20vh;
+}
+
+/*FLEX Around*/
+#justifyContent-around {
+  display: flex;
+  justify-content: space-around; /* other options: flex-start or center*/
+}
+#thirteen {
+  background-color: rgb(109, 255, 243);
+  height: 20vh;
+  width: 20vh;
+}
+#fourteen {
+  background-color: rgb(15, 102, 95);
+  height: 20vh;
+  width: 20vh;
+}
+#fifteen {
+  background-color: rgb(8, 26, 24);
+  height: 20vh;
+  width: 20vh;
+}
+
+/*Coloumn FLEX between*/
+#col-spaceBetween {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* without specifiying vh you will see no space because it is only the space of the child element*/
+  justify-content: space-between; /* other options: flex-start or center*/
+}
+#sixteen {
+  background-color: rgb(160, 109, 255);
+  height: 20vh;
+  width: 20vh;
+}
+#seventeen {
+  background-color: rgb(64, 29, 189);
+  height: 20vh;
+  width: 20vh;
+}
+#eighteen {
+  background-color: rgb(159, 79, 233);
+  height: 20vh;
+  width: 20vh;
+}
+
+/*Coloumn align FLEX-Start between*/
+#col-alignFlexStart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100vh; /* without specifiying vh you will see no space because it is only the space of the child element*/
+  justify-content: space-between; /* other options: flex-start or center*/
+}
+#nineteen {
+  background-color: rgb(214, 109, 255);
+  height: 20vh;
+  width: 20vh;
+}
+#twenty {
+  background-color: rgb(189, 29, 162);
+  height: 20vh;
+  width: 20vh;
+}
+#twenty1 {
+  background-color: rgb(233, 79, 151);
+  height: 20vh;
+  width: 20vh;
+}
+/*Coloumn align FLEX center between*/
+#col-alignCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* without specifiying vh you will see no space because it is only the space of the child element*/
+  justify-content: space-between; /* other options: flex-start or center*/
+}
+#twenty2 {
+  background-color: rgb(214, 109, 255);
+  height: 20vh;
+  width: 20vh;
+}
+#twenty3 {
+  background-color: rgb(189, 29, 162);
+  height: 20vh;
+  width: 20vh;
+}
+#twenty4 {
+  background-color: rgb(233, 79, 151);
+  height: 20vh;
+  width: 20vh;
+}
+/*Coloumn align FLEX-End between*/
+#col-alignFlexEnd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100vh; /* without specifiying vh you will see no space because it is only the space of the child element*/
+  justify-content: space-between; /* other options: flex-start or center*/
+}
+#twenty5 {
+  background-color: rgb(214, 109, 255);
+  height: 20vh;
+  width: 20vh;
+}
+#twenty6 {
+  background-color: rgb(189, 29, 162);
+  height: 20vh;
+  width: 20vh;
+}
+#twenty7 {
+  background-color: rgb(233, 79, 151);
+  height: 20vh;
+  width: 20vh;
+}
+
+/*(Justify-content) - center(middle), flex-end(right), flex-start(left) or you can space out your children 
+by using space-around(which puts space around your children or space between which puts space between the child element.)*/
